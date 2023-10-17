@@ -1,0 +1,17 @@
+
+
+  type User{
+    name: String
+    email: String!
+    age: Int
+    posts: [Post]
+  }
+
+  type Post{
+    title: String
+    content: String
+  }
+
+  type Query{
+    users: [User]
+  }
